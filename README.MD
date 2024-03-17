@@ -68,11 +68,6 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 
 **Responsive**: Full responsiveness across devices for consistent user experience; fluid design adapts seamlessly to various screen sizes, ensuring accessibility.
 
-<br>
-
-![Product Edit Page](https://refine.ams3.cdn.digitaloceanspaces.com/example-readmes/CRM-Minimal/crm-demo.gif "Demo GIF")
-
-<br>
 
 ## Try this example on your local
 

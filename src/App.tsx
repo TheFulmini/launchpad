@@ -39,7 +39,7 @@ const App = () => {
               dataProvider={dataProvider}
               liveProvider={liveProvider}
               notificationProvider={useNotificationProvider}
-              authProvider={authProvider}
+              // authProvider={authProvider}
               resources={resources}
               options={{
                 syncWithLocation: true,

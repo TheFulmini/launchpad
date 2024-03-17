@@ -1,12 +1,12 @@
 import { AuthBindings } from "@refinedev/core";
 import { Amplify, Auth } from "aws-amplify";
 import type { AuthActionResponse } from "@refinedev/core/dist/interfaces";
-import { env } from "./env";
+// import { env } from "./env";
 
 Amplify.configure({
   Auth: {
     // fixme: set your own ids.
-    userPoolId: "eu-west-1_BwBmZiu5l",
+    userPoolId: env.VITE_USERPOOL_ID,
     userPoolWebClientId: env.VITE_USERPOOL_WEB_CLIENT_ID,
   },
 });
@@ -146,11 +146,7 @@ const authProvider: AuthBindings = {
   },
 };
 
-export { authProvider };
-
-
-
-
+// export { authProvider };
 
 // import { AuthProvider } from "@refinedev/core";
 
